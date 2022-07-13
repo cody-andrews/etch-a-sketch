@@ -1,0 +1,39 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    /* grid-gap: 1em; */
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  div{
+    height: 8px;    
+    width: 8px;
+  }
+
+  .hovered  {
+    background-color: #000000;
+  }
+  
+  div:hover {
+    background-color: #000000;
+    color: #000000;
+    /* transition-delay: 1s; */
+    /* box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white; */
+  }
+
+
+
+      
