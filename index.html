@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+        
 
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
@@ -15,10 +14,16 @@
     </head>
 
     <body>
+        
+
 
         <div id='container'>
             <!-- <div id="divs"></div> -->
         </div>
+        <button onclick="resetGrid(), makeRows(16, 16)">16x16 Grid</button>
+        <button onclick="resetGrid(), makeRows(32, 32)">32x32 Grid</button>
+        <button onclick="resetGrid(), makeRows(48, 48)">48x48 Grid</button>
+        <button onclick="resetGrid(), makeRows(64, 64)">64x64 Grid</button>
     
     </body>
 
