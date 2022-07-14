@@ -15,16 +15,24 @@
 
     <body>
         
-
-
-        <div id='container'>
-            <!-- <div id="divs"></div> -->
+        <h1>Etch-A-Sketch</h1>
+       
+        <div class="menu"> 
+                <button onclick="resetGrid(), makeRows(16, 16)">16x16 Grid</button>
+                <button onclick="resetGrid(), makeRows(32, 32)">32x32 Grid</button>
+                <button onclick="resetGrid(), makeRows(48, 48)">48x48 Grid</button>
+                <button onclick="resetGrid(), makeRows(64, 64)">64x64 Grid</button>
         </div>
-        <button onclick="resetGrid(), makeRows(16, 16)">16x16 Grid</button>
-        <button onclick="resetGrid(), makeRows(32, 32)">32x32 Grid</button>
-        <button onclick="resetGrid(), makeRows(48, 48)">48x48 Grid</button>
-        <button onclick="resetGrid(), makeRows(64, 64)">64x64 Grid</button>
-    
+       
+        <div class="gridContainer">
+            <div id='container'>
+            <!-- <div id="divs"></div> -->
+            </div>
+        </div>
+        
+        
+        
+       
     </body>
 
 </html>

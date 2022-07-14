@@ -2,6 +2,14 @@
     --grid-cols: 1;
     --grid-rows: 1;
   }
+  html{
+    background-color: black;
+  }
+  h1  {
+    display: flexbox;
+    text-align: center;
+    color: #2dc7ff;
+  }
   
   #container {
     display: grid;
@@ -9,12 +17,34 @@
     height: 500px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
-    border: 3px solid #ddd;
-
+    border: 8px solid #393D47;
   }
   
+  button {
+    display: flexbox;
+    justify-content: space-between;
+    margin: 8px ;
+    color: #2dc7ff;
+    background-color: black;
+    border: 1px solid #2dc7ff;
 
+  }
 
+  .menu {
+    max-width: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #2dc7ff;
+    margin: auto;
+
+  }
+
+  .gridContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 
